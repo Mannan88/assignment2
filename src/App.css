@@ -1,0 +1,89 @@
+h1{
+    font-family: monospace;
+    color:rgb(44, 42, 42);
+    font-size: 40px;
+    margin-left:20px;
+}
+        .App {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            height: 100vh;
+            box-sizing: border-box;
+            margin:0px;
+            padding:0px;
+        }
+        .search_bar {
+            display: inline;
+            position: sticky;
+            top: 0;
+            background-color:  #c71f37;
+            height: 100vh;
+            box-sizing: border-box;
+            padding: 0px;
+
+        }
+        form{
+            margin:20px;
+            display:flex;
+        }
+        input{
+            border:none;
+            border-radius: 10px;
+            font-size: 20px;
+            padding:5px;
+            border:5px solid rgb(197, 74, 74);
+        }
+        #searchButton{
+            font-size: 20px;
+            background-color: rgb(197, 74, 74);
+            color:antiquewhite;
+            border:none;
+            padding:10px;
+            border-radius: 10px;
+        }
+        .poke_card{
+            margin-left:20px;
+            padding-left:15%;
+        }
+        .info{
+            margin-left:20px;
+            font-size: 25px;
+            font-family: monospace;
+            color:#dcccce
+        }
+        #info_name{
+            font-size: 40px;
+            font-family: monospace;
+            color:#f0e6e7
+        }
+        .info_image{
+            height:170px;
+            background-color: #dcccce;
+            border-radius: 30px;
+        }
+        .left {
+            display: block;
+            background-color: rgb(235, 231, 231);
+            padding: 20px;
+            height: 100vh;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+        .pokemon_cards{
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .poke_image2{
+            height:250px;
+            margin:0px 20px;
+        }
+        .poke_name2{
+            text-align: center;
+            font-size: 30px;
+            font-family: monospace;
+            font-weight: 700;
+            color:rgb(44, 42, 42);
+            margin:20px;
+        }
